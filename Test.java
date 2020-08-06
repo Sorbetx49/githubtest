@@ -3,7 +3,7 @@ public class Game {
 	private int rolls[] = new int[21];
   private int currentRoll = 0;
   private int record = 0;
-  private String name = null;
+  private String winnername = null;
 
 	public void roll(int pins) {
 		rolls[currentRoll++] = pins;
